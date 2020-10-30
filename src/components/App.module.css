@@ -1,0 +1,124 @@
+.App{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    overflow: hidden;
+}
+
+.budgetView{
+    display: flex;
+    justify-content: center;
+}
+
+.incomeDisplay{
+    display:block;
+}
+
+.incomeDisplay h4{
+    width: 21.25rem;
+    display: inline-block;
+    border-bottom: 1px solid rgb(197, 191, 191);
+    padding-bottom: 0.6rem;
+    margin-top: 40px;
+    margin-bottom: 8px;
+}
+
+.expenseDisplay{
+    display:block;
+}
+
+.expenseDisplay h4{
+    margin-left: 25px;
+    width: 21.25rem;
+    display: inline-block;
+    border-bottom: 1px solid rgb(197, 191, 191);
+    padding-bottom: 0.6rem;
+    margin-top: 40px;
+    margin-bottom: 8px;
+ 
+}
+
+.nt{
+    align-self: center;
+    margin-top: 28px;
+    display: flex;
+    flex-direction: column;
+}
+
+.nothingAdded{
+    background-image: url('../assets/undraw_pie_chart_6efe.svg');
+    background-repeat: no-repeat;
+    height: 12.5rem;
+    width: 25rem;
+    background-position: center;
+    background-size: 50% auto;
+}
+
+.nothingAddedE{
+    text-align: center;
+    margin-bottom: 0px;
+    color: #2b2929;
+}
+
+.about{
+    margin-top: 15px;
+}
+
+.about a {
+    text-decoration: none;
+    color: #2b2929;
+}
+
+
+.admin{
+    margin-top: 10px;
+    color: #2b2929;
+}
+
+.admin a{
+    text-decoration: none;
+    color: #2b2929;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+@media (min-width: 376px) and (max-width: 550px){
+
+    .budgetView{
+        flex-direction: column;
+        margin: 30px 30px;
+    }
+
+    .incomeDisplay h4{
+        width: 21.5rem;
+    }
+
+    .expenseDisplay h4{
+        width: 21.5rem;
+        margin-left: 0px;
+    }
+
+}
+
+@media (min-width: 321px) and (max-width: 375px){
+    .budgetView{
+        flex-direction: column;
+        margin: 30px 28px;
+    }
+
+    .expenseDisplay h4{
+        width: 19.8rem;
+        margin-left: 0px;
+    }
+
+    .incomeDisplay h4{
+        width: 19.8rem;
+    }
+
+}
+
+

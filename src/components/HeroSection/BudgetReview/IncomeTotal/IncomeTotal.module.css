@@ -1,0 +1,22 @@
+.bg{
+    background-color: #adff2f;
+    display: flex;
+    min-width: 10.6rem;
+    height: 2.2rem;
+    margin-bottom: 3px;
+    
+}
+
+.income{
+    display: inline-block;
+    color: rgb(37, 36, 36);
+    margin: auto;
+    margin-left: 6px;
+    margin-right: 10px;
+}
+
+.calculated{
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    margin: auto;
+}

@@ -1,0 +1,10 @@
+.v{
+    background-image: url('../../assets/headerimage.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 18rem;
+    position: relative;
+}
+
+

@@ -1,0 +1,11 @@
+.wrapper{
+    background-image: linear-gradient(to bottom right, #adff2f, #e4a1a1 70%);
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+}
+
+.header{
+    text-align: center;
+    
+}

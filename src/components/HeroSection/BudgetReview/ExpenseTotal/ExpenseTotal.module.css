@@ -1,0 +1,29 @@
+.bg{
+    background-color: #f35d5d;
+    display: flex;
+    min-width: 10.6rem;
+    height: 2.2rem;  
+    margin-top: 3px;
+    
+}
+
+.expense{
+    display: inline-block;
+    color: rgb(37, 36, 36);
+    margin: auto;
+    margin-left: 6px;
+    margin-right: 10px;
+}
+
+.calculated{
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    margin: auto;
+    margin-right: 5px;
+}
+
+.perc{
+    color: #f0f8ff;
+    margin: 13px 5px 10px 5px; 
+    border: 1px solid rgb(119, 114, 114);
+}
